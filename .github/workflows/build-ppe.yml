@@ -15,8 +15,8 @@ on:
       - 'patches/feeds/ppe/**'
       - 'scripts/**'
       - '.github/workflows/build-ppe.yml'
-  schedule:
-    - cron: "30 3 * * *"
+  # schedule:
+  #   - cron: "30 3 * * *"
 
 concurrency:
   group: build-ppe
